@@ -24,7 +24,7 @@ public class SeleniumDriver {
 	public void beforeClass() {
 
 		 driver = new FirefoxDriver();
-		driver.get("http://10.136.53.10:8080/Ewallet_devops-0.0.1/");
+		driver.get("http://ec2-52-36-155-174.us-west-2.compute.amazonaws.com:8086/Ewallet_devops-0.0.1/");
 		System.out.println("Succesfully navigated");
 		driver.manage().window().maximize();
 
