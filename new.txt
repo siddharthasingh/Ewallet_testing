@@ -1,0 +1,2 @@
+https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux64.zip
+https://chromedriver.storage.googleapis.com/2.29/chromedriver_linux32.zip
