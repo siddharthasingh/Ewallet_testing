@@ -23,9 +23,9 @@ public class SeleniumDriver {
 	@BeforeClass
 	public void beforeClass() {
 
-		// driver = new FirefoxDriver();
-		System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver");
-	        WebDriver driver = new ChromeDriver();
+		driver = new FirefoxDriver();
+		//System.setProperty("webdriver.chrome.driver", "/tmp/chromedriver");
+	        //WebDriver driver = new ChromeDriver();
 		
 		driver.get("http://ec2-52-36-155-174.us-west-2.compute.amazonaws.com:8086/Ewallet_devops-0.0.1/");
 		System.out.println("Succesfully navigated");
